@@ -6,16 +6,16 @@ import { ModeToggle } from './ui/toggle-menu'
 export default function Nav() {
     return(
         <header>
-            <nav>
-                <ul className='flex items-center justify-between'>
+            <div className='flex justify-between list-none'>
+                <ul>
                     <li>
                 <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="pointer-events-none flex place-items-center gap-2 p-4 lg:pointer-events-auto lg:p-0"
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
         >
-            By{' '}
+            {' '}
             <Image
             src="/vercel.svg"
             alt="Vercel Logo"
@@ -26,6 +26,15 @@ export default function Nav() {
             />
         </a>
         </li>
+        </ul>
+        <div>
+        <li>
+            <ModeToggle />
+        </li>
+        </div>
+        </div>
+            <nav>
+                <ul className='flex items-center justify-between'>
         <li>
             <a href="#">Home</a>
         </li>
@@ -37,9 +46,6 @@ export default function Nav() {
         </li>
         <li>
             <a href="#">Blog</a>
-        </li>
-        <li>
-            <ModeToggle />
         </li>
                 </ul>
             </nav>

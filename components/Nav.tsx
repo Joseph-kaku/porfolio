@@ -36,16 +36,16 @@ export default function Nav() {
             <nav>
                 <ul className='flex items-center justify-between'>
         <li>
-            <a href="#">Home</a>
+            <a href="#">About Me</a>
         </li>
         <li>
-            <a href="#">About</a>
+            <a href="#">Resume</a>
         </li>
         <li>
-            <a href="#">Contact</a>
+            <a href="#">Projects</a>
         </li>
         <li>
-            <a href="#">Blog</a>
+            <a href="#">Others</a>
         </li>
                 </ul>
             </nav>

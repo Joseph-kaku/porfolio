@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import { Button } from '@/components/ui/Button'
+import  Header  from '../components/Header'
 
 export default function Home() {
   return (
@@ -10,10 +11,7 @@ export default function Home() {
         <h1 className='text-4xl font-bold'> Working on Portfolio ... </h1>
         <p className='text-2xl text-muted-foreground'> With Shadcn this should be easier ... </p>
       </section>
-      <div className="flex gap-6 items-center justify-center">
-        <Button> Learn more </Button>
-        <Button> Enroll Now </Button>
-      </div>
+      <Header />
     </main>
   )
 }

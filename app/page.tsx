@@ -1,8 +1,9 @@
-import Image from 'next/image'
 import Nav from '../components/Nav'
-import { Button } from '@/components/ui/Button'
 import  Header  from '../components/Header'
 import Aboutme from '../components/Aboutme'
+import Resume from '../components/Resume'
+import Projects from '../components/Projects'
+import Others from '../components/Others'
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       <Nav />
       <Header />
       <Aboutme />
+      <Resume />
+      <Projects />
+      <Others />
     </main>
   )
 }

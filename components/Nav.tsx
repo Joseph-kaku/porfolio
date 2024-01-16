@@ -8,14 +8,13 @@ export default function Nav() {
         <header>
             <div className='flex justify-between list-none'>
                 <ul>
-                    <li>
+                    {/* <li>
                 <a
             className="pointer-events-none flex place-items-center gap-2 p-4 lg:pointer-events-auto lg:p-0"
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
         >
-            {' '}
             <Image
             src="/vercel.svg"
             alt="Vercel Logo"
@@ -25,7 +24,7 @@ export default function Nav() {
             priority
             />
         </a>
-        </li>
+        </li> */}
         </ul>
         <div>
         <li>

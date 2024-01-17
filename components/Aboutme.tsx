@@ -11,7 +11,7 @@ export default function Aboutme() {
                 <p> Technical Skills </p>
             </div>
             <div>
-                <p> Image </p>
+            <img className="rounded-full w-20 h-20" src='https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?&dpr=2&q=80' alt="image description"></img>
             </div>
         </section>
     )

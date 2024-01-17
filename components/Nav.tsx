@@ -11,7 +11,7 @@ export default function Nav() {
         <div className='w-full mb-10'>
             <ol className="flex justify-between">
             <li>
-            <img className="rounded-full w-15 h-15" src='../public/selfportrait.jpg' alt="image description"></img>
+            <img className="rounded-full w-20 h-20" src='https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?&dpr=2&q=80' alt="image description"></img>
             </li>
         <li>
             <ModeToggle />

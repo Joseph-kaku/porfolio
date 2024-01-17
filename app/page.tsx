@@ -11,8 +11,10 @@ export default function Home() {
     <main className="p-24">
       <Nav />
       <Header />
+      <h1 className="mb-5"> About Me </h1>
       <Aboutme />
       <Resume />
+      <h1 className='mb-5'> Projects </h1>
       <Projects />
       <Others />
       <Footer />

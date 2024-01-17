@@ -1,5 +1,4 @@
 "use client"
-import Image from 'next/image'
 import { ModeToggle } from './ui/toggle-menu'
 
 
@@ -9,10 +8,15 @@ export default function Nav() {
             <div className='flex justify-between list-none'>
                 <ul>
         </ul>
-        <div>
+        <div className='w-full mb-10'>
+            <ol className="flex justify-between">
+            <li>
+            <img className="rounded-full w-15 h-15" src='../public/selfportrait.jpg' alt="image description"></img>
+            </li>
         <li>
             <ModeToggle />
         </li>
+            </ol>
         </div>
         </div>
             <nav>

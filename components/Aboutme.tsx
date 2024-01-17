@@ -4,12 +4,14 @@
 
 export default function Aboutme() {
     return (
-        <section>
-            <h1> About Me </h1>
+        <section className="w-full mb-10 flex justify-between">
             <div>
                 <p> About Me </p>
                 <p> Little Paragraph </p>
                 <p> Technical Skills </p>
+            </div>
+            <div>
+                <p> Image </p>
             </div>
         </section>
     )

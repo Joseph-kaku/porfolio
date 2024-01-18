@@ -6,7 +6,7 @@ import self from '../public/selfpotrait.jpeg'
 
 export default function Nav() {
     return(
-        <header>
+        <header className='mb-15'>
             <div className='flex justify-between list-none'>
                 <ul>
         </ul>

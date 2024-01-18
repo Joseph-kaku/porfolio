@@ -2,10 +2,10 @@
 
 export default function Resume() {
     return(
-        <div>
-            <h1 className="mb-5"> Resume </h1>
+        <div id="resume" className="scroll-mt-20">
+            <h1 className="mb-5 text-3xl font-bold text-center"> Resume </h1>
 
-<ol className="relative border-s border-gray-200 dark:border-gray-700">                  
+<ol className="mb-20 relative border-s border-gray-200 dark:border-gray-700">                  
     <li className="mb-10 ms-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"> January 2021 - Present </time>

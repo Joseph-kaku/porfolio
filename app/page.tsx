@@ -11,10 +11,10 @@ export default function Home() {
     <main className="p-24">
       <Nav />
       <Header />
-      <h1 className="mb-5"> About Me </h1>
+      <h1 className="mb-10 text-3xl font-bold text-center"> About Me </h1>
       <Aboutme />
       <Resume />
-      <h1 className='mb-5'> Projects </h1>
+      <h1 className='mb-10 text-3xl font-bold text-center'> Projects </h1>
       <Projects />
       <Others />
       <Footer />

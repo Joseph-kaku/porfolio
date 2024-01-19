@@ -16,6 +16,7 @@ export default function Home() {
       <Resume />
       <h1 className='mb-10 text-3xl font-bold text-center'> Projects </h1>
       <Projects />
+      <h1 className='mb-10 text-3xl font-bold text-center'> Others </h1>
       <Others />
       <Footer />
     </main>

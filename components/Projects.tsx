@@ -6,7 +6,7 @@ import shoes from '../public/shoes.png'
 
 export default function Projects() {
     return(
-        <div id="projects" className="mb-40 w-full flex justify-between scroll-mt-20">
+        <div id="projects" className="mb-40 w-full flex justify-between scroll-mt-32">
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="https://macawmanager.onrender.com/api-docs/">

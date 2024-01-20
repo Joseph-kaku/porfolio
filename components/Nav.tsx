@@ -6,23 +6,14 @@ import self from '../public/selfpotrait.jpeg'
 
 export default function Nav() {
     return(
-        <header className='mb-15'>
-            <div className='flex justify-between list-none'>
-                <ul>
-        </ul>
-        <div className='w-full mb-10'>
-            <ol className="flex justify-between">
-            <li>
-            <Image className="rounded-full w-20 h-30" src={self} alt="self potrait"></Image>
-            </li>
-        <li>
-            <ModeToggle />
-        </li>
-            </ol>
-        </div>
-        </div>
+        <header className='bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0  border-gray-200 dark:border-gray-600'>
             <nav>
                 <ul className='flex items-center justify-between'>
+                <li>
+                <a href='#aboutme'>
+                    <Image className="rounded-full w-10 h-10" src={self} alt="self potrait"></Image>
+                </a>
+            </li>  
         <li>
             <a href="#aboutme">About Me</a>
         </li>
@@ -35,6 +26,9 @@ export default function Nav() {
         <li>
             <a href="#others">Others</a>
         </li>
+        <li>
+                <ModeToggle />
+            </li>
                 </ul>
             </nav>
         </header>

@@ -4,7 +4,7 @@
 export default function Others() {
     return(
 
-<div id="others" className=" w-full flex justify-between scroll-mt-20 gap-4">
+<div id="others" className="flex flex-col items-center scroll-mt-32">
     <div className="mb-20 scroll-mt-20 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="https://joseph-kaku.github.io/BasicSite/frontendwebsite/index.html">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> Manga Directory </h5>

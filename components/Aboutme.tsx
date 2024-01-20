@@ -5,7 +5,7 @@ import self from '../public/selfpotrait.jpeg'
 
 export default function Aboutme() {
     return (
-<section id='aboutme' className="w-full mb-20 flex justify-center items-center scroll-mt-32 text-wrap">
+<section id='aboutme' className="w-full mb-20 sm:flex justify-center items-center  scroll-mt-32 text-wrap ">
             <div className='w-80 mr-24'>
                 <p> In 2021 I took my first official Web Development class 
                     and I have not looked back since. 
@@ -79,7 +79,7 @@ export default function Aboutme() {
 
             </div>
             <div>
-            <Image src={self} width={300} height={500} alt="self potrait"></Image>
+            <Image src={self} width={300} height={500} alt="self potrait" className='hidden lg:block'></Image>
             </div>
 </section>
     )

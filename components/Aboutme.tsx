@@ -8,7 +8,7 @@ export default function Aboutme() {
 <section id='aboutme' className="w-full mb-20 flex justify-center items-center scroll-mt-32 text-wrap">
             <div className='w-80 mr-24'>
                 <p> In 2021 I took my first official Web Development class 
-                    and I haven't looked back since. 
+                    and I have not looked back since. 
                     Web development has become a big part of who I am 
                     and what I aspire to be as a Software Engineer. </p> <br />
                 <p> I love figuring out how to make websites look beautiful 

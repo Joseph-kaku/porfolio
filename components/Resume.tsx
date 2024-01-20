@@ -19,7 +19,7 @@ export default function Resume() {
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white"> Returning Bright Ambitions (Marketing Lead)  </h3>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400"> Developed and executed a comprehensive marketing strategy and increased scholarships awareness by 50% </p>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400"> Influenced redesign of RBA website, resulting in a 30% increase in user engagement and applications </p>
-        <p className="text-base font-normal text-gray-500 dark:text-gray-400"> Created engaging content and managed social media to communicate RBA's mission by 80% </p>
+        <p className="text-base font-normal text-gray-500 dark:text-gray-400"> Created engaging content and managed social media to communicate RBAs mission by 80% </p>
     </li>
     <li className="mb-10 ms-4 sm:mb-4">
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

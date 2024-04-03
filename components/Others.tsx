@@ -36,6 +36,12 @@ export default function Others() {
             <a href="https://joseph-kaku.github.io/BasicSite/chamber/index.html">Check it out</a>
             </SheetDescription>
         </SheetHeader>
+        <SheetHeader>
+        <SheetTitle>Shoe Log</SheetTitle>
+            <SheetDescription>
+            <a href="https://shoeproject.onrender.com/api-docs/">Check it out</a>
+            </SheetDescription>
+        </SheetHeader>
     </SheetContent>
 </Sheet>
     )

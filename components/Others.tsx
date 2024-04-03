@@ -9,7 +9,7 @@ export default function Others() {
     return(
 <Sheet>
     <div className="flex justify-center items-center">
-        <SheetTrigger>Check out other projects</SheetTrigger>
+        <SheetTrigger className="bg-primary text-primary-foreground rounded-sm p-2">Check out other projects</SheetTrigger>
     </div>
         <SheetContent >
         <SheetHeader>

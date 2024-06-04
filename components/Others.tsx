@@ -8,7 +8,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 export default function Others() {
     return(
 <Sheet>
-    <div className="flex justify-center items-center">
+    <div id="others" className="flex scroll-mt-40 justify-center items-center">
         <SheetTrigger className="bg-primary text-primary-foreground rounded-sm p-2">Check out other projects</SheetTrigger>
     </div>
         <SheetContent >
